@@ -1,0 +1,43 @@
+.landing-page {
+    &--title {
+        color: palevioletred;
+        font-size: 30px;
+        padding: 20px 0 20px 0;
+        font-style: oblique;
+        font-weight: 900;
+        border: 1px dotted red;
+    }
+}
+
+.leaf {
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-width: 2px;
+    border-color: green;
+    font-size: 20px;
+    margin-right: 8px;
+    border-style: solid;
+}
+
+.leaf-arr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.even {
+    background-color: magenta;
+}
+
+.six {
+    background-color: yellow;
+}
+
+.button-center {
+    padding-top: 70px;
+}
+
+.textfield {
+    padding: 10px;
+}
